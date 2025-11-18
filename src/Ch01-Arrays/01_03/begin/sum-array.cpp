@@ -3,6 +3,11 @@ using namespace std;
 
 int calculateSum(const int arr[], size_t size)
 {
+    int sum = 0;
+    for (int number : arr) {
+        sum += number;
+    }
+    return sum;
     //...TODO: implement
 }
 
